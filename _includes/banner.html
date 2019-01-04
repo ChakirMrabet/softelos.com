@@ -1,0 +1,134 @@
+<div class="show-for-large-up">
+
+	{% if page.id == "hello" %}
+		
+		<div class="banner-{{ page.id }}">
+		</div>
+
+		<div id="banner-intro" class="row fullWidth" height="400px">
+			<div class="large-12 columns text-center animated fadeInDown">
+				<p class="title">WE ARE CREATIVE GEEKS</p>
+				<p class="subtitle">We can boost your business with our websites and web applications</p>
+			</div>
+			<div class="large-12 columns text-center animated fadeInDown">
+				<p class="subtitle"><a id="go-down-button" href="#section-start" class="fa fa-arrow-circle-down"></a></p>
+			</div>
+		</div>
+	{% endif %}
+
+	{% if page.id == "whatwedo-p" %}
+		<div class="banner-{{ page.id }}">
+			<video autoplay loop poster="{{ site.baseurl }}/assets/img/typing.jpg" id="bgvid">
+				<source src="{{ site.baseurl }}/assets/videos/typing.mp4" type="video/mp4">
+			</video>
+		</div>
+	{% endif %}
+
+
+	{% if page.id == "ourteam" %}
+		<div class="banner-{{ page.id }}">
+		</div>
+
+		<div id="banner-intro-small" class="row fullWidth gray-intro" height="200px">
+			<div class="large-12 columns text-center animated fadeInDown">
+					<p class="title intro-gray">We are a small team with an enormous skill Set</p>
+			</div>
+		</div>
+	{% endif %}
+
+
+
+	{% if page.id == "contactus" %}
+		<div class="banner-{{ page.id }}">
+			<video autoplay loop poster="{{ site.baseurl }}/assets/img/typing.jpg" id="bgvid">
+				<source src="{{ site.baseurl }}/assets/videos/typing.webm" type="video/webm">
+				<source src="{{ site.baseurl }}/assets/videos/typing.mp4" type="video/mp4">
+			</video>
+		</div>
+
+		<div id="banner-intro-small-full" class="row fullWidth" height="200px">
+			<div class="large-12 columns text-center animated fadeInDown">
+				<p class="title">LET'S MAKE SOMETHING TOGETHER</p>
+				<p class="subtitle">There’s nothing we enjoy more than rolling up our sleeves and starting a new project!</p>
+			</div>
+			<div class="large-12 columns text-center animated fadeInDown">
+				<p class="subtitle"><a id="go-down-button" href="#section-start" class="fa fa-arrow-circle-down"></a></p>
+			</div>
+		</div>
+
+	{% endif %}
+
+	{% if page.id == "contactus-thanks" %}
+		<div class="banner-{{ page.id }}">
+		</div>
+
+		<div id="banner-intro-small" class="row fullWidth" height="200px">
+			<div class="large-12 columns text-center animated fadeInDown">
+				<p class="title">THANK YOU!</p>
+				<p class="subtitle">Your message was successfully sent to Softelos.</p>
+			</div>
+		</div>
+	{% endif %}
+
+	{% if page.id == "notepad" %}
+
+		{% if page.banner %}
+			<div class="banner-post-img" style="background-image:url({{ site.baseurl }}/assets/img/blog/{{ page.banner }})"></div>
+		{% else %}
+			<div class="banner-{{ page.id }}">
+			</div>
+		{% endif %}
+
+		<div id="banner-intro-small" class="row fullWidth" height="200px">
+			<div class="large-12 columns text-center animated fadeInDown">
+				{% if page.type == 'post' %}
+					<p class="title">{{ page.subtitle }}</p>
+				{% else %}
+					<p class="title">NOTEPAD</p>
+					<p class="subtitle">Our collection of news, events, latest work and technical advice.</p>
+				{% endif %}
+			</div>
+		</div>
+	{% endif %}
+
+	
+	{% if page.id == "404" %}
+
+		<div class="banner-{{ page.id }}">
+		</div>
+
+		<div id="banner-intro-only" class="row fullWidth" height="200px">
+			<div class="large-12 columns text-center animated fadeInDown">
+				<p class="title">OH, THE INTERNET EXPLODED!</p>
+				<p class="subtitle">What you’re looking for doesn't exist,
+					but don’t worry, it’s probably our fault..unless you did something terrible.<br>
+					In that case, don’t do it again.</p>
+			</div>
+			<div class="large-12 columns text-center animated fadeInDown">
+				<p class="subtitle"><a href="{{ site.baseurl }}/" class="button hollow round">Go back to Home</a></p>
+			</div>			
+		</div>
+	{% endif %}
+
+
+</div>
+
+
+<div class="show-for-small-only">
+	{% if page.id == "404" %}
+		<div class="banner-small-{{ page.id }}">
+		</div>
+		<div id="banner-intro-only" class="row fullWidth" height="200px">
+			<div class="large-12 columns text-center animated fadeInDown">
+				<p class="title">OH, THE INTERNET EXPLODED!</p>
+				<p class="subtitle">
+					What you’re looking for doesn't exist,
+					but don’t worry, it’s probably our fault..unless you did something terrible.<br>
+					In that case, don’t do it again.</p>
+			</div>
+			<div class="large-12 columns text-center animated fadeInDown">
+				<p class="subtitle"><a href="{{ site.baseurl }}/" class="button hollow round">Go back to Home</a></p>
+			</div>			
+		</div>
+	{% endif %}
+</div>

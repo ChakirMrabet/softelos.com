@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <description></description>
+    <link>http://www.softelos.com/</link>
+    <atom:link href="http://www.softelos.com/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 30 Dec 2015 18:03:58 -0500</pubDate>
+    <lastBuildDate>Wed, 30 Dec 2015 18:03:58 -0500</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Building Violations</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://www.buildingviolation.com&quot;&gt;Building Violation&lt;/a&gt; is a team of professionals that help homeowners and businesses to resolve building violations and Complaints. Since 2007 they have been managing violations issued by all Government agencies, including Department of Buildings, Fire Department, and Housing Authority.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.buildingviolation.com&quot;&gt;Building Violation&lt;/a&gt; also provides other services such as helping customers to learn more about their properties, and saving them from buying a problematic house, by providing them complete records research. They also help customers to present, submit or furnish applications or construction documents and remove documents from the Department of Buildings in New York City and other major cities.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.softelos.com&quot;&gt;Softelos&lt;/a&gt; has worked for &lt;a href=&quot;http://www.buildingviolation.com&quot;&gt;Building Violation&lt;/a&gt; on making a completely brand new website redesigned from scratch with the latest design trends, as well as a fully customized bidding system where customers can report building violations and have professionals sending them offers to solve them, similar to how sites like Thumbtack, Elance or Fiverr work.&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;/assets/img/blog/building-violation.png&quot; title=&quot;Building Violation&quot; alt=&quot;Building Violation&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;!--more--&gt;&lt;/p&gt;
+&lt;h3&gt;The Problem&lt;/h3&gt;
+&lt;p&gt;The &lt;a href=&quot;http://www.buildingviolation.com&quot;&gt;Building Violation&lt;/a&gt; team wanted two achieve two things very well differentiated:&lt;/p&gt;
+&lt;ol&gt;
+	&lt;li&gt;They needed a new website with a modern and responsive design where customers can not only learn about the team behind and their services, but also where they can fill a form to report a new building violation. This website needed to be pure &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt; in order for the &lt;a href=&quot;http://www.buildingviolation.com&quot;&gt;Building Violation&lt;/a&gt; team to be able to edit its content quickly with just a text editor (no content management systems).&lt;/li&gt;
+	&lt;li&gt;They needed a full bidding system where the customers are forwarded after they fill the form to report a building violation. This bidding system would have customers reporting building violations from one side, and professionals from the other one sending them offers with their approach to resolve the violation, estimated cost, and estimated time needed to complete it. The customers then would choose the offer they like the most and start the project with the professional who sent it. The bidding system then would track the whole cycle of the violation resolution, including communications between the customer and professional, payments, reporting and reviews to the professional once the violation is solved.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Approach&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.softelos.com&quot;&gt;Softelos&lt;/a&gt; chose the following arrangement to achieve the goals of this project:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;An &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt; static website developed with &lt;a href=&quot;http://www.softelos.com/advice/2015/03/16/fast-and-secure-websites-static-sites.html&quot;&gt;Jekyll&lt;/a&gt;, using a custom design built from scratch that matches the &lt;a href=&quot;http://www.buildingviolation.com&quot;&gt;Building Violation&lt;/a&gt; team&amp;#8217;s branding, including clean colors, sharp fonts, and very simple layout. This website would be easily editable since is pure &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt;, hosted in a server that doesn&amp;#8217;t require special resources, and virtually un-hackable because it doesn&amp;#8217;t make use of any database or server side scripting, both very to prone malicious attacks. This website would have the &lt;span class=&quot;caps&quot;&gt;URL&lt;/span&gt; &lt;a href=&quot;http://www.buildingviolation.com&quot;&gt;www.buildingviolation.com&lt;/a&gt;, and would be the &amp;#8220;landing place&amp;#8221; for new visitors or users who don&amp;#8217;t make use of the active tools.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;/assets/img/blog/building-violation1.png&quot; title=&quot;Building Violation&quot; alt=&quot;Building Violation&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A dynamic website developed with Laravel &lt;span class=&quot;caps&quot;&gt;PHP&lt;/span&gt; framework for the server side scripting, hosted in a more powerful server in order to absorb large amount of users connected at the same time. This dynamic site has the &lt;span class=&quot;caps&quot;&gt;URL&lt;/span&gt; &lt;a href=&quot;http://app.buildingviolation.com&quot;&gt;app.buildingviolation.com&lt;/a&gt;, and is interconnected with the static website in many ways, for example, when providing maps showing the reported violations for different states, or the last three reported violations shown at the bottom of the static website main page.&lt;/li&gt;
+	&lt;li&gt;This dynamic website provides also the following features:
+	&lt;ul&gt;
+		&lt;li&gt;User accounts with different profiles (customers, professionals, administrators).&lt;/li&gt;
+		&lt;li&gt;Dashboards and latest content created by the users.&lt;/li&gt;
+		&lt;li&gt;Dynamic forms created with jQuery that make reporting violations or sending offers a very easy task.&lt;/li&gt;
+		&lt;li&gt;Private messaging system between customers and professionals.&lt;/li&gt;
+		&lt;li&gt;Violation status tracker.&lt;/li&gt;
+		&lt;li&gt;Payment gateway to PayPal.&lt;/li&gt;
+		&lt;li&gt;Active maps showing the location of each violation with pop ups that provide a summary of its information.&lt;/li&gt;
+		&lt;li&gt;Automatic mailing system that informs customers and professionals of important events.&lt;/li&gt;
+	&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;/assets/img/blog/building-violation3.png&quot; title=&quot;Building Violation&quot; alt=&quot;Building Violation&quot; /&gt;&lt;/p&gt;
+&lt;h3&gt;Technologies Used&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;HTML5&lt;/li&gt;
+	&lt;li&gt;CSS3&lt;/li&gt;
+	&lt;li&gt;jQuery 2&lt;/li&gt;
+	&lt;li&gt;Foundation 5&lt;/li&gt;
+	&lt;li&gt;Laravel 5.1&lt;/li&gt;
+	&lt;li&gt;&lt;span class=&quot;caps&quot;&gt;PHP&lt;/span&gt; 5.5&lt;/li&gt;
+	&lt;li&gt;MySQL server 5.5&lt;/li&gt;
+	&lt;li&gt;All images optimized for fast download&lt;/li&gt;
+	&lt;li&gt;Google Fonts&lt;/li&gt;
+	&lt;li&gt;FontAwesome&lt;/li&gt;
+&lt;/ul&gt;</description>
+        <pubDate>Sun, 29 Nov 2015 12:00:00 -0500</pubDate>
+        <link>http://www.softelos.com/work/2015/11/29/building-violation.html</link>
+        <guid isPermaLink="true">http://www.softelos.com/work/2015/11/29/building-violation.html</guid>
+        
+        
+        <category>work</category>
+        
+      </item>
+    
+      <item>
+        <title>The Shimmer Sparkle Shine Project</title>
+        <description>&lt;p&gt;The &lt;a href=&quot;http://www.shimmersparkleshineproject.org/&quot;&gt;Shimmer Sparkle Shine Project&lt;/a&gt; is an organization that mentors individually girls and women across the United States on their self-esteem, through positive activities that nourish them to realize their own individual worth and divine potential.&lt;/p&gt;
+&lt;p&gt;While the &lt;a href=&quot;http://www.shimmersparkleshineproject.org/&quot;&gt;Shimmer Sparkle Shine Project&lt;/a&gt; didn’t hold its first workshop until 2012, their roots go back to when the founder, Ciara, was in middle school. Throughout middle school, especially in 7th grade, Ciara was severely bullied from her peers. The bullying was so aggressive that she would fake sick to come home or just bluntly leave school early in tears, because she couldn’t handle anymore bullying from everyone around her. As a result of her peers constantly belittling her self-worth she came up with the phrase “Shimmer Sparkle Shine” as a way to encourage herself to get through the day.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.softelos.com&quot;&gt;Softelos&lt;/a&gt; has worked with Ciara on providing The Shimmer Sparkle Shine Project with a top-notch website that transmits the project&amp;#8217;s values and workshop activities through the Internet to every girl and woman in need.&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;/assets/img/blog/sss-small.jpg&quot; title=&quot;The Shimmer Sparkle Shine Project&quot; alt=&quot;The Shimmer Sparkle Shine Project&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;!--more--&gt;&lt;/p&gt;
+&lt;h3&gt;The story behind the project&lt;/h3&gt;
+&lt;p&gt;When Ciara went to high school and was able to surround herself with a new set of people, her wounds healed and she was able to rediscover her self-worth. Ciara decided that she wanted to make sure no girl felt the way she did in middle school, thus the Shimmer Sparkle Shine Project was born. In the summer of 2011, she started mentoring girls individually on their self-esteem. With support from fellow students, Ciara was able to plan the Shimmer Sparkle Shine Project’s first workshop in February of 2012. After much effort in the years that followed the Shimmer Sparkle Shine Project was granted 501 ( c )( 3 ) tax exemption status in May of 2014. Between these efforts the Shimmer Sparkle Shine Project blossomed into what it is today.&lt;/p&gt;
+&lt;h3&gt;Approach&lt;/h3&gt;
+&lt;p&gt;Ciara wanted a Website that is easy to use and update, but at the same time, with a beautiful and simple design that transmits the emotions of the girls and women who participate in the project.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.softelos.com&quot;&gt;Softelos&lt;/a&gt; chose Wordpress to build the website structure, a very easy to use and update content management system, and created a nice design for the interface that makes use of clean and warm colors, and simple layouts that structure the content in a clear and easy way. The website includes not only static pages, but also active forms for contact information and for donations using a gateway to PayPal.&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;/assets/img/blog/sss.png&quot; title=&quot;The Shimmer Sparkle Shine Project&quot; alt=&quot;The Shimmer Sparkle Shine Project&quot; /&gt;&lt;/p&gt;
+&lt;h3&gt;Technologies Used&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;HTML5&lt;/li&gt;
+	&lt;li&gt;CSS3&lt;/li&gt;
+	&lt;li&gt;jQuery 2&lt;/li&gt;
+	&lt;li&gt;Bootstrap 3&lt;/li&gt;
+	&lt;li&gt;WordPress 4&lt;/li&gt;
+	&lt;li&gt;MySQL server 5.5&lt;/li&gt;
+	&lt;li&gt;All images optimized for fast download&lt;/li&gt;
+	&lt;li&gt;Google Fonts&lt;/li&gt;
+	&lt;li&gt;FontAwesome&lt;/li&gt;
+&lt;/ul&gt;</description>
+        <pubDate>Tue, 01 Sep 2015 09:00:00 -0400</pubDate>
+        <link>http://www.softelos.com/work/2015/09/01/shimmer-sparkle-shine-project.html</link>
+        <guid isPermaLink="true">http://www.softelos.com/work/2015/09/01/shimmer-sparkle-shine-project.html</guid>
+        
+        
+        <category>work</category>
+        
+      </item>
+    
+      <item>
+        <title>Fast and Secure Websites - Static Sites</title>
+        <description>&lt;p&gt;Nowadays many websites are built using a Content Management System or &lt;span class=&quot;caps&quot;&gt;CMS&lt;/span&gt; such as WordPress, Drupal or Joomla.  They allow the user to manage all their content through nice administrator control screens, and &lt;span class=&quot;caps&quot;&gt;PHP&lt;/span&gt;, &lt;span class=&quot;caps&quot;&gt;ASP&lt;/span&gt;.&lt;span class=&quot;caps&quot;&gt;NET&lt;/span&gt;, or whatever server side technology the &lt;span class=&quot;caps&quot;&gt;CMS&lt;/span&gt; is built on, will magically and dynamically create the website pages every single time a visitor hits the page.&lt;/p&gt;
+&lt;p&gt;Building a website using a &lt;span class=&quot;caps&quot;&gt;CMS&lt;/span&gt; is one of the many ways the Internet has become so powerful, since the old days when all websites were just a link or two and a flash banner. As a matter of fact, in 2015, 23.9% of the websites are made on WordPress, but using a &lt;span class=&quot;caps&quot;&gt;CMS&lt;/span&gt; also involves having to deal with issues related to deployment, security, performance and maintenance.&lt;/p&gt;
+&lt;p&gt;However using a &lt;span class=&quot;caps&quot;&gt;CMS&lt;/span&gt; is not the only way to create a website. Building them exclusively on &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt; static files is still one of the most efficient methods of creating fast and secure websites that still conform a big portion of the 60.4% that are not using a &lt;span class=&quot;caps&quot;&gt;CMS&lt;/span&gt;.&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;/assets/img/blog/staticvsdynamic.jpg&quot; title=&quot;Static vs Dynamic websites&quot; alt=&quot;Static vs Dynamic websites&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;!--more--&gt;&lt;/p&gt;
+&lt;h3&gt;What is a static &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt; site?&lt;/h3&gt;
+&lt;p&gt;A static site is a website made in such a way that its &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt; content has already been pre-generated and is just laying out on the web server, as opposed to all the content being stored in a database waiting to be dynamically mashed together when a request comes by a server side technology like &lt;span class=&quot;caps&quot;&gt;PHP&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;When we first heard about this concept we really wondered why would anyone want a static &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt; site with the options we have today in &lt;span class=&quot;caps&quot;&gt;CMS&lt;/span&gt; products. However in many cases using a &lt;span class=&quot;caps&quot;&gt;CMS&lt;/span&gt; is over kill, not only technically wise, but also in terms of hosting and maintenance costs.&lt;/p&gt;
+&lt;h3&gt;Advantages of static &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt; sites&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;performance&lt;/strong&gt;.  Seconds can mean the difference between someone getting frustrated and leaving your website versus them staying and reading, buying, or clicking your ad.  With static &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt;, your site is ready and rearing to go because there is no database to query from or server side scripting to parse. Static websites are fast, superfast, since they are pure &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;no database calls&lt;/strong&gt;.  No mashing together of content and templates, all that’s been done already.  &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt; is what browsers read and they don&amp;#8217;t know &lt;span class=&quot;caps&quot;&gt;PHP&lt;/span&gt; or &lt;span class=&quot;caps&quot;&gt;ASP&lt;/span&gt;.&lt;span class=&quot;caps&quot;&gt;NET&lt;/span&gt;, all they know is &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt; markup, and it’s already there waiting for them.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;security&lt;/strong&gt; is another thing static sites solve. When building websites we constantly need to watch for &lt;span class=&quot;caps&quot;&gt;SQL&lt;/span&gt; injection or other trickeries from the bad guys.  With static sites, the majority of the security issues go away since the site doesn’t have any database to inject &lt;span class=&quot;caps&quot;&gt;SQL&lt;/span&gt; to. It’s just a set of read-only files sitting out on a file server. Where WordPress or other &lt;span class=&quot;caps&quot;&gt;CMS&lt;/span&gt; products have access (potentially write) to the database, they are inherently more hacker-prone than static files.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;portability&lt;/strong&gt;.  With static websites there is no more &lt;span class=&quot;caps&quot;&gt;PHP&lt;/span&gt;, &lt;span class=&quot;caps&quot;&gt;ASP&lt;/span&gt;.&lt;span class=&quot;caps&quot;&gt;NET&lt;/span&gt; or Java requirements for the web server. &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt; is the most portable website technology of all time, because at the end of the day, it&amp;#8217;s &lt;span class=&quot;caps&quot;&gt;THE&lt;/span&gt; web technology, and can be moved from Apache to &lt;span class=&quot;caps&quot;&gt;IIS&lt;/span&gt; to Nginx to whatever host environment we need and it&amp;#8217;s guaranteed it’ll work just as great as before we made the move.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;deployment&lt;/strong&gt;. Hosting only &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt; files is very cheap since it doesn&amp;#8217;t require the servers to have other services installed and running. As a matter of fact, static &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt; websites can be even hosted for free! Services such as GitHub provide this option.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;So should I use only static websites?&lt;/h3&gt;
+&lt;p&gt;No. A static website is a way of solving a specific problem, it&amp;#8217;s a tool that we need to make use when it makes sense.&lt;/p&gt;
+&lt;p&gt;A good analogy for comparing static websites versus dynamic ones is whether the website could be printed out and still function properly. If the website will show information that is designed to be read, then we could print each page out, and with the exception of any hyperlinks we may have, it would still work. For projects like this the best option is to go with static websites due the advantages mentioned above.&lt;/p&gt;
+&lt;p&gt;Examples of this are landing pages, business pages like &lt;a href=&quot;http://softelos.com&quot;&gt;softelos.com&lt;/a&gt; (home, services, about, contact us), or blogs. At Softelos we are experts in static websites and we suggest them to our clients when they provide the best outcome for their projects.&lt;/p&gt;
+&lt;p&gt;However if the website needs to be interactive and capable of being used by people who will use it not just for reading, the best option is to go with a dynamic website, built on a &lt;span class=&quot;caps&quot;&gt;CMS&lt;/span&gt; or custom web development.&lt;/p&gt;</description>
+        <pubDate>Mon, 16 Mar 2015 14:39:10 -0400</pubDate>
+        <link>http://www.softelos.com/advice/2015/03/16/fast-and-secure-websites-static-sites.html</link>
+        <guid isPermaLink="true">http://www.softelos.com/advice/2015/03/16/fast-and-secure-websites-static-sites.html</guid>
+        
+        
+        <category>advice</category>
+        
+      </item>
+    
+      <item>
+        <title>How we made softelos.com</title>
+        <description>&lt;p&gt;Our website is no different from other web projects we develop for our customers. We follow the same procedures and apply the same principles when creating software for our own needs. Doing this allows us to be more critical with our methods and to spot possible issues to fix, or even to find better ways of doing things.&lt;/p&gt;
+&lt;p&gt;In this article we describe the process we followed to make &lt;a href=&quot;http:\\softelos.com&quot;&gt;softelos.com&lt;/a&gt;. This will give an idea of how we approach and work on new projects in general from our clients.&lt;/p&gt;
+&lt;p&gt;&lt;!--more--&gt;&lt;/p&gt;
+&lt;h3&gt;.. discuss your needs&lt;/h3&gt;
+&lt;p&gt;This is the first and most important stage of any web design or web development project we work on. During this stage we communicate with our customers to learn about their business, and to discuss their requirements for the project they have in mind.&lt;/p&gt;
+&lt;p&gt;After a call or email to briefly introduce each other and to get a quick glimpse of what our customer needs, we usually meet in person for this stage if there are details that are not clear enough. Sometimes when the project is very complex, we might need more than one session in order to gather all the information we need to develop the project.&lt;/p&gt;
+&lt;p&gt;In the case of &lt;a href=&quot;http:\\softelos.com&quot;&gt;softelos.com&lt;/a&gt;, the customer is us. We wanted a website that announces and promotes our business with the following requirements:&lt;/p&gt;
+&lt;ol&gt;
+	&lt;li&gt;We need a logo and branding (colors, fonts, and style).&lt;/li&gt;
+	&lt;li&gt;The content has to summarize who we are, what we do, and our values. It shouldn&amp;#8217;t flood the visitor with unnecessary information and graphics.&lt;/li&gt;
+	&lt;li&gt;The design has to be attractive and very light.&lt;/li&gt;
+	&lt;li&gt;The design has to load fast.&lt;/li&gt;
+	&lt;li&gt;The design has to support mobile devices.&lt;/li&gt;
+	&lt;li&gt;There should be at least the following clearly identified pages:
+	&lt;ol&gt;
+		&lt;li&gt;Home&lt;/li&gt;
+		&lt;li&gt;Services&lt;/li&gt;
+		&lt;li&gt;Contact&lt;/li&gt;
+		&lt;li&gt;Blog&lt;/li&gt;
+	&lt;/ol&gt;&lt;/li&gt;
+	&lt;li&gt;The home page will summarize the services we provide and our values.&lt;/li&gt;
+	&lt;li&gt;The services page should provide more detailed information of the services we provide. It also should describe how we develop our projects.&lt;/li&gt;
+	&lt;li&gt;The contact page should provide a simple contact form and most important frequently answered questions.&lt;/li&gt;
+	&lt;li&gt;The blog page will be used to periodically publish news, events and other interesting content from &lt;a href=&quot;http:\\softelos.com&quot;&gt;Softelos&lt;/a&gt;. It should list a teaser of all the articles we have sorted by categories. The title of each article should forward the visitor to the full article.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Once the requirements are clearly defined, we review the time it&amp;#8217;ll take to complete the project and send an estimate to our customer.&lt;/p&gt;
+&lt;h3&gt;.. think of an unique idea&lt;/h3&gt;
+&lt;p&gt;We start this stage when our customer accepts our estimate and places a purchase order.&lt;/p&gt;
+&lt;p&gt;In this stage we review all the requirements gathered during our communications with our customer, and we brainstorm amazing ways of implementing them in a unique way.&lt;/p&gt;
+&lt;p&gt;During this stage we also evaluate different possible technologies and pick the one that suits best to the project needs in the most efficient way. Many web agencies and web developers tend to use the same tool for all the projects they work on, making their final products to look all the same with very little innovation or flexibility. At &lt;a href=&quot;http:\\softelos.com&quot;&gt;Softelos&lt;/a&gt; we take a very different approach, we are experts in many different web design and software development technologies, which allows us to provide very imaginative solutions to the problems (when you have more than a hammer, not everything looks like a nail).&lt;/p&gt;
+&lt;p&gt;For &lt;a href=&quot;http:\\softelos.com&quot;&gt;softelos.com&lt;/a&gt; we decided to go very simple and implement the website in pure &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt;, with no databases or server side scripting. This makes our website simple, light, fast, and very secure. However if the site was more complex, we would have probably gone with a &lt;span class=&quot;caps&quot;&gt;CMS&lt;/span&gt; such us WordPress or even Drupal if the project was really complicated and needed to handle thousands of users connected at the same time. And if our website required complex data processing, real time data process, or complex user-data interaction, we would have developed it from scratch with &lt;span class=&quot;caps&quot;&gt;PHP&lt;/span&gt; or node.js.&lt;/p&gt;
+&lt;p&gt;If you want to learn more about pure &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt; websites, read our article &lt;a href=&quot;http://localhost:4000/advice/2015/03/16/fast-and-secure-websites-static-sites.html&quot;&gt;Fast and Secure Static Sites&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;.. design the concept&lt;/h3&gt;
+&lt;p&gt;This is when the fun starts!&lt;/p&gt;
+&lt;p&gt;Once we have defined the customer&amp;#8217;s requirements, selected a couple of design ideas, and chosen the right technology to use, we are able to turn all them into reality.&lt;/p&gt;
+&lt;p&gt;First we start creating a wire frame structure of the website or web application, with no graphics or real content. This helps us to show to our customer how the project is taking shape and also allows us to get feedback if something needs to change.&lt;/p&gt;
+&lt;p&gt;This wire frame structure is like the framing of a house. It&amp;#8217;s functional, it allows the client to get an idea and make comments in case a room should be reallocated or more doors should be added on a wall. In the case of a website, the same principle applies, our customer will be able to test how all pages are connected together, how all the blocks of information are structured, the size of the design, the contact forms, etc..&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;/assets/img/blog/wireframe.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Once the customer is happy with the wire frame structure and all his requests and changes have been applied, we proceed to apply the &amp;#8220;skin&amp;#8221; to the wire frame, which includes colors, pictures and real content.&lt;/p&gt;
+&lt;p&gt;This produces the initial visual concept which we share with our customer for evaluation.&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;/assets/img/blog/skin.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;h3&gt;.. you comment and we amend&lt;/h3&gt;
+&lt;p&gt;During this stage we communicate with our customer to discuss the initial visual concept and refine based on their feedback. Adding extra touches here and there just enhances the design for perfection. We usually allow two or three iterations of changes before closing the design.&lt;/p&gt;
+&lt;h3&gt;.. website development&lt;/h3&gt;
+&lt;p&gt;Once the design has been completed and accepted by the customer, it&amp;#8217;s time to get the programming started, which is the heart or engine that makes everything to work. At this stage we start developing all the features and functionality of the website which at this point should have been already clarified with the customer.&lt;/p&gt;
+&lt;p&gt;In the case of &lt;a href=&quot;http:\\softelos.com&quot;&gt;softelos.com&lt;/a&gt;, although the website doesn&amp;#8217;t require any server side scripting (development), it still needs JavaScript code that makes possible some cool features such as the top header expanding and collapsing when scrolling the browser.&lt;/p&gt;
+&lt;h3&gt;.. show it to the world&lt;/h3&gt;
+&lt;p&gt;After intense testing and another round of feedback, we prepare to publish the master piece to the world. This is usually done by announcing the site as an email newsletter that we design and send to our client&amp;#8217;s customers.&lt;/p&gt;
+&lt;p&gt;In our case since our website is pure &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt;, &lt;span class=&quot;caps&quot;&gt;CSS&lt;/span&gt; and JavaScript, we don&amp;#8217;t need an expensive hosting provider. We are using GitHub, a source version control site that offers free hosting for websites with no server side scripting or database support.&lt;/p&gt;
+&lt;h3&gt;Technologies Used&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;HTML5&lt;/li&gt;
+	&lt;li&gt;CSS3&lt;/li&gt;
+	&lt;li&gt;jQuery 2&lt;/li&gt;
+	&lt;li&gt;FOundation 5&lt;/li&gt;
+	&lt;li&gt;Jekyll 3.0.1&lt;/li&gt;
+	&lt;li&gt;All images optimized for fast download&lt;/li&gt;
+	&lt;li&gt;Google Fonts&lt;/li&gt;
+	&lt;li&gt;FontAwesome&lt;/li&gt;
+&lt;/ul&gt;</description>
+        <pubDate>Sun, 08 Feb 2015 12:30:00 -0500</pubDate>
+        <link>http://www.softelos.com/work/2015/02/08/how-we-made-softelos.html</link>
+        <guid isPermaLink="true">http://www.softelos.com/work/2015/02/08/how-we-made-softelos.html</guid>
+        
+        
+        <category>work</category>
+        
+      </item>
+    
+      <item>
+        <title>We have launched!</title>
+        <description>&lt;p&gt;We have launched Softelos, a small web design and development agency based in Lynchburg, right in the heart of Virginia. Softelos provides professional websites and cutting edge web applications for clients all over the United States.&lt;/p&gt;
+&lt;p&gt;We’re looking forward to working with many wonderful clients, and provide them the expertise we acquired as designers and software developers for different companies along the last years, so do not hesitate to &lt;a href=&quot;/contactus&quot;&gt;contact us&lt;/a&gt; telling us about the project you have in mind, we will make it happen technically!.&lt;/p&gt;
+&lt;p&gt;We provide a fresh approach to web design and development. Our focus relies heavily on beautiful designs and implementations based on top notch web technologies. We’re always learning so that we can incorporate new technologies in our project as soon as they emerge. It’s a balance that we’ve perfected by our hunger for learning and our desire to achieve new challenges.&lt;/p&gt;
+&lt;p&gt;We also have a unique process approach that we apply to any project we work on, and which is based on rapid design and individual development phases. We care about long standing relationships, repeatedly delivery excellence, and building teams which extract the best in ourselves and brands we work with.&lt;/p&gt;
+&lt;p&gt;&lt;!--more--&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;/assets/img/blog/virginia.jpg&quot; title=&quot;Softelos is based in Virginia&quot; alt=&quot;Softelos is based in Virginia&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;We provide many specific &lt;a href=&quot;/whatwedo&quot;&gt;services&lt;/a&gt;, but we are also open to approach different problems. We offer custom development services for clients based on a specific campaign launch or requirements. We have a strong capacity of problem solving and meeting deadlines.&lt;/p&gt;
+&lt;h3&gt;The Website&lt;/h3&gt;
+&lt;p&gt;We created &lt;a href=&quot;http://softelos.com&quot;&gt;softelos.com&lt;/a&gt; taking a simple and clean design approach that works for anyone on any web-enabled device. Using responsive web design techniques, our site will respond and adapt according to the orientation of our visitor’s screen size and resolution. We also decided to make the website to load fast, so we used pure &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt; with the help of the &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; generator.&lt;/p&gt;
+&lt;p&gt;The website offers clear navigation to our visitors, making our &lt;a href=&quot;/&quot;&gt;homepage&lt;/a&gt;, &lt;a href=&quot;/whatwedo&quot;&gt;services&lt;/a&gt;, &lt;a href=&quot;/notepad&quot;&gt;blog&lt;/a&gt; and &lt;a href=&quot;/contactus&quot;&gt;contact&lt;/a&gt; information easily accessible. Also our &lt;a href=&quot;/notepad&quot;&gt;blog&lt;/a&gt; (The Notepad) is easy, simple to navigate and read, and helps to position our website as a valuable asset to the community.&lt;/p&gt;
+&lt;p&gt;A simple yet powerful &lt;a href=&quot;/contactus&quot;&gt;contact page&lt;/a&gt; allows us to quickly respond to questions, requests or comments from our customers and friends.&lt;/p&gt;
+&lt;p&gt;Click through our website to see for yourself!, and don&amp;#8217;t forget to read our &lt;a href=&quot;/contactus#faq&quot;&gt;frequented asked questions&lt;/a&gt; to know us better. If you have questions, fill our &lt;a href=&quot;/contactus&quot;&gt;contact&lt;/a&gt; form or just send as a message saying hello!.&lt;/p&gt;</description>
+        <pubDate>Mon, 26 Jan 2015 13:39:10 -0500</pubDate>
+        <link>http://www.softelos.com/events/2015/01/26/we-have-launched.html</link>
+        <guid isPermaLink="true">http://www.softelos.com/events/2015/01/26/we-have-launched.html</guid>
+        
+        
+        <category>events</category>
+        
+      </item>
+    
+  </channel>
+</rss>
